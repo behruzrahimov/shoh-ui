@@ -1,0 +1,141 @@
+@value variables: "../../style/variables.module.css";
+
+@value buttonPrimaryTextColor from variables;
+@value buttonPrimaryBgColor from variables;
+@value buttonPrimaryBgColorHover from variables;
+@value buttonPrimaryBgColorActive from variables;
+
+@value buttonSecondaryTextColor from variables;
+@value buttonSecondaryBgColor from variables;
+@value buttonSecondaryBgColorHover from variables;
+@value buttonSecondaryBgColorActive from variables;
+
+@value buttonSuccessTextColor from variables;
+@value buttonSuccessBgColor from variables;
+@value buttonSuccessBgColorHover from variables;
+@value buttonSuccessBgColorActive from variables;
+
+@value buttonDangerTextColor from variables;
+@value buttonDangerBgColor from variables;
+@value buttonDangerBgColorHover from variables;
+@value buttonDangerBgColorActive from variables;
+
+@value buttonSimpleTextColor from variables;
+@value buttonSimpleTextColorHover from variables;
+@value buttonSimpleTextColorActive from variables;
+
+.button {
+  cursor: pointer;
+  padding: 0.8rem 2rem 0.9rem 2rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.button[disabled] {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.classic {
+  border: 0.05rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.3rem;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 15px;
+  height: 40px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple {
+  background: none;
+  border: none;
+  color: #616161;
+  padding: 0 15px;
+}
+
+.simple:hover {
+  background: none;
+  color: #687386;
+}
+
+.simple:active {
+  color: buttonSimpleTextColorActive;
+}
+
+.border {
+  background: none;
+  padding: 0 15px;
+  color: #000;
+  border: 1px solid #d9dfe7;
+  border-radius: 5px;
+}
+
+.border:hover {
+  background: none;
+  color: #687386;
+}
+
+.border:active {
+  color: buttonSimpleTextColorActive;
+}
+
+.success {
+  color: buttonSuccessTextColor;
+  background-color: buttonSuccessBgColor;
+}
+
+.success:hover {
+  background-color: buttonSuccessBgColorHover;
+}
+
+.success:active {
+  background-color: buttonSuccessBgColorActive;
+}
+
+.danger {
+  color: buttonDangerTextColor;
+  background-color: buttonDangerBgColor;
+}
+
+.danger:hover {
+  background-color: buttonDangerBgColorHover;
+}
+
+.danger:active {
+  background-color: buttonDangerBgColorActive;
+}
+
+.primary {
+  color: buttonPrimaryTextColor;
+  background-color: buttonPrimaryBgColor;
+}
+
+.primary:hover {
+  background-color: buttonPrimaryBgColorHover;
+}
+
+.primary:active {
+  background-color: buttonPrimaryBgColorActive;
+}
+
+.secondary {
+  /* color: buttonSecondaryTextColor;
+  background-color: buttonSecondaryBgColor; */
+  background-color: rgba(133, 146, 170, 0.25);
+  color: #000;
+}
+
+.secondary:hover {
+  /* background-color: buttonSecondaryBgColorHover; */
+  opacity: 80%;
+}
+
+.secondary:active {
+  background-color: buttonSecondaryBgColorActive;
+}

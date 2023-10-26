@@ -1,0 +1,23 @@
+@value variables: "../../style/variables.module.css";
+
+/*.small {
+  font-size: 1.4rem;
+}
+.medium {
+  font-size: 1.8rem;
+}
+.large {
+  font-size: 2.4rem;
+}*/
+.bg {
+  background-color: #eef2f6;
+}
+
+i.hover:hover {
+  cursor: pointer;
+  color: #333;
+}
+
+.danger {
+  color: #f35050;
+}

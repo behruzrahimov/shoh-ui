@@ -1,0 +1,34 @@
+@value primaryColor: #1B9FFC;
+@value secondaryColor: #EEF2F6;
+@value successColor: #5CC02A;
+@value dangerColor: #F35050;
+
+@value buttonPrimaryTextColor: #FFFFFF;
+@value buttonPrimaryBgColor:#3ADB85;
+@value buttonPrimaryBgColorHover:#32e585;
+@value buttonPrimaryBgColorActive:#30d17b;
+
+@value buttonSecondaryTextColor: #000000;
+@value buttonSecondaryBgColor: #EEF2F6;
+@value buttonSecondaryBgColorHover: #DFE5EB;
+@value buttonSecondaryBgColorActive: #CFD7DE;
+
+@value buttonSuccessTextColor: #FFFFFF;
+@value buttonSuccessBgColor: #5CC02A;
+@value buttonSuccessBgColorHover: #4F9F27;
+@value buttonSuccessBgColorActive: #3F851D;
+
+@value buttonDangerTextColor: #FFFFFF;
+@value buttonDangerBgColor: #F35050;
+@value buttonDangerBgColorHover: #CD4040;
+@value buttonDangerBgColorActive: #BC3838;
+
+@value buttonSimpleTextColor: #8592AA;
+@value buttonSimpleTextColorHover: #6C7990;
+@value buttonSimpleTextColorActive: #535F75;
+
+@value h1Color: #000000;
+@value h2Color: #000000;
+@value h3Color: #000000;
+@value h4Color: #8592AA;
+@value h5Color: #000000;
