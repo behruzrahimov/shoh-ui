@@ -1,0 +1,91 @@
+@value variables: "../../style/variables.module.css";
+
+@value buttonPrimaryTextColor from variables;
+
+
+.inputContainer .outline {
+  border-radius:7px;
+  box-sizing: border-box;
+  /* border: 2px solid transparent; */
+}
+
+.inputContainer .outline.compact {
+  margin: 0;
+}
+
+.inputContainer .box {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  border-radius:5px;
+  box-sizing: border-box;
+  transition: .1s all linear;
+
+  /* padding: 0.6rem 1rem; */
+}
+
+.inputContainer .compact .box {
+  padding: 0;
+}
+
+.inputContainer .box.compact.focused {
+  border: 0.05rem solid rgba(0, 0, 0, 0.26);
+}
+
+.inputContainer .outerBox {
+  border: 2px solid transparent;
+  border-radius: 7px;
+  transition: .1s all linear;
+}
+
+.inputContainer label {
+  margin-right: auto;
+}
+
+.inputContainer .outerBox.focused {
+  border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.inputContainer .box.primary {
+  border: 0.05rem solid  rgba(0, 0, 0, 0.26);
+}
+
+.inputContainer .box.primary.empty {
+  border: 0.05rem solid  rgba(0, 0, 0, 0.26);
+}
+
+.inputContainer .box.primary.disabled {
+  background: transparent;
+}
+
+.inputContainer .box.primary.focused {
+  border: 0.05rem solid  rgba(0, 0, 0, 0.26);
+}
+
+.inputContainer .box.secondary {
+  background: #f8fafc;
+  border: 0.05rem solid rgba(0, 0, 0, 0.26);
+}
+
+.inputContainer .box.secondary.disabled {
+  background: #d6d6d6;
+}
+
+.inputContainer .box.secondary.focused {
+  border: 0.05rem solid  rgba(0, 0, 0, 0.26);
+}
+
+.inputContainer i {
+  padding: 0 0.4rem 0 1rem;
+  text-align: center;
+  align-self: center;
+}
+
+.inputContainer input,
+.inputContainer textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: none;
+  /*caret-color: #1B9FFC;*/
+}

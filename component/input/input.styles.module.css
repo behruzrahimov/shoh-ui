@@ -1,0 +1,15 @@
+@value variables: "../../style/variables.module.css";
+
+.wrapper {
+  padding: 0.05rem 0.5rem;
+}
+
+::placeholder {
+  font-family: "Apple Braille", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.3rem;
+  color: rgba(133, 146, 170, 0.75);
+  opacity: 1; /* Firefox */
+}
