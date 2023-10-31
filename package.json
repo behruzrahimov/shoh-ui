@@ -1,16 +1,17 @@
 {
   "name": "shoh-ui",
-  "version": "1.0.52",
+  "version": "1.0.6",
   "description": "shoh components",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Shohimardon Rahimov",
+    "email": "behruzrahimov580@gmail.com"
+  },
   "repository": {
+    "type": "git",
     "url": "https://github.com/behruzrahimov/shoh-ui"
   },
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "behruzrahimov",
-  "license": "MIT",
   "dependencies": {
     "classnames": "^2.3.2"
   }
