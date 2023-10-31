@@ -1,0 +1,105 @@
+@value variables: "../../style/variables.module.css";
+
+@value buttonPrimaryTextColor from variables;
+@value buttonPrimaryBgColor from variables;
+@value buttonPrimaryBgColorHover from variables;
+@value buttonPrimaryBgColorActive from variables;
+
+@value buttonSecondaryTextColor from variables;
+@value buttonSecondaryBgColor from variables;
+@value buttonSecondaryBgColorHover from variables;
+@value buttonSecondaryBgColorActive from variables;
+
+@value buttonSuccessTextColor from variables;
+@value buttonSuccessBgColor from variables;
+@value buttonSuccessBgColorHover from variables;
+@value buttonSuccessBgColorActive from variables;
+
+@value buttonDangerTextColor from variables;
+@value buttonDangerBgColor from variables;
+@value buttonDangerBgColorHover from variables;
+@value buttonDangerBgColorActive from variables;
+
+@value buttonSimpleTextColor from variables;
+@value buttonSimpleTextColorHover from variables;
+@value buttonSimpleTextColorActive from variables;
+
+.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50px;
+  width: auto;
+  min-width: 10px;
+  min-height: 10px;
+  height: auto;
+  padding: 1px;
+  font-size: 10px;
+  bottom: 60%;
+  left: 80%;
+  transition: 0.1s all ease-in-out;
+  z-index: 99;
+}
+
+.no_count {
+  width: 0;
+  height: 0;
+}
+
+.classic {
+  border: 0.05rem solid rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple {
+  background: none;
+  border: none;
+  color: black;
+}
+
+.border {
+  background: none;
+  color: #000;
+  border: 1px solid #d9dfe7;
+}
+
+.success {
+  color: buttonSuccessTextColor;
+  background-color: buttonSuccessBgColor;
+}
+
+.danger {
+  color: buttonDangerTextColor;
+  background-color: buttonDangerBgColor;
+}
+
+.primary {
+  color: buttonPrimaryTextColor;
+  background-color: buttonPrimaryBgColor;
+}
+
+.secondary {
+  /* color: buttonSecondaryTextColor;
+    background-color: buttonSecondaryBgColor; */
+  background-color: rgba(133, 146, 170, 0.25);
+  color: #000;
+}

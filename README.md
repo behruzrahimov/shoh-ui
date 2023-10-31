@@ -13,7 +13,7 @@ Install the package in your project directory with:
     yarn add shoh-ui
 
 ### pnpm
-    pnpm i shoh-ui
+    pnpm i shoh-uixs
 
 
 # License
