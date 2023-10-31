@@ -45,12 +45,13 @@
   position: absolute;
   border-radius: 50px;
   width: auto;
-  min-width: 10px;
+  min-width: 15px;
   min-height: 10px;
   height: auto;
   padding: 1px;
-  font-size: 10px;
+  font-size: 12px;
   bottom: 60%;
+  font-weight: 700;
   left: 80%;
   transition: 0.1s all ease-in-out;
   z-index: 99;
