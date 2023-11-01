@@ -1,0 +1,74 @@
+@value variables: "../../style/variables.module.css";
+
+.overlay {
+  position: fixed;
+  z-index: 900;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  transition: all ease 0.5s;
+}
+
+.overlay.opened {
+  opacity: 1;
+  transition: opacity 0.3s ease 0s;
+}
+
+.overlay.closed {
+  transition:
+    opacity 0.3s ease 0s,
+    transform 0s ease 0.3s;
+  transform: translate3d(100%, 0px, 0px);
+}
+
+.modal {
+  padding: 1em 2em 2em 2em;
+  /* padding: 2rem 5rem 3rem 5rem; */
+  z-index: 901;
+  background: #fff;
+  max-height: 95vh;
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.crossButtonContainer {
+  position: absolute;
+  z-index: 902;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 96%;
+  bottom: 85%;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: black;
+  box-shadow: 0 -1px 2px 1px rgba(0, 0, 0, 0.05);
+  background-color: #f1f1f1;
+  cursor: pointer;
+  transition: 0.1s all ease-in-out;
+}
+
+.crossButtonContainer:hover {
+  background-color: white;
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  color: #000000;
+}
