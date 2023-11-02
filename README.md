@@ -44,12 +44,12 @@ import { Button } from 'shoh-ui';
 
 Shoh-UI currently includes the following components:
 
-- Button
-- Input
-- Modal
-- Icon
-- Badge
-- Avatar
+- [Button](./component/button/README.md)
+- [Input](./component/input/README.md)
+- [Modal](./component/modal/README.md)
+- [Icon](./component/icon/README.md)
+- [Badge](./component/badge/README.md)
+- [Avatar](./component/avatar/README.md)
 
 Each component is fully customizable using props, and includes support for various styles and variants.
 
