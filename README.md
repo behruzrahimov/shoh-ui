@@ -10,20 +10,25 @@ Shoh-UI is a collection of reusable UI components for React, designed to help yo
 Install the package in your project directory with:
 
 ### npm
+```bash
     npm i shoh-ui
-
+```
 ### yarn
-    yarn add shoh-ui
+```bash
+    yarn i shoh-ui
+```
 
 ### pnpm
+```bash
     pnpm i shoh-ui
+```
 
 
 # Usage
 To use a component from Shoh-UI, simply import it into your React component and render it:
 import { Button } from 'shoh-ui';
 
-  ```
+  ```javascript
   import { Button } from 'shoh-ui';
 
   function MyComponent() {
