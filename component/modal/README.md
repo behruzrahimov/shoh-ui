@@ -24,16 +24,16 @@ To use the React Modal Component in your React application, you can install it a
 
 ### npm
 ```bash
-    npm i shoh-ui
+npm i shoh-ui
 ```
 ### yarn
 ```bash
-    yarn i shoh-ui
+yarn i shoh-ui
 ```
 
 ### pnpm
 ```bash
-    pnpm i shoh-ui
+pnpm i shoh-ui
 ```
 
 # Usage

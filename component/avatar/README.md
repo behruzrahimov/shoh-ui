@@ -7,16 +7,16 @@ To use the `Avatar` component in your React project, make sure you have the requ
 
 ### npm
 ```bash
-    npm i shoh-ui
+npm i shoh-ui
 ```
 ### yarn
 ```bash
-    yarn i shoh-ui
+yarn i shoh-ui
 ```
 
 ### pnpm
 ```bash
-    pnpm i shoh-ui
+pnpm i shoh-ui
 ```
 
 
